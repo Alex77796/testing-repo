@@ -3,7 +3,7 @@
 }
 
 
-table,th,td{
+/* table,th,td{
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -17,7 +17,7 @@ th,td{
 }  */
 /* input{
   outline: none !important;
-}
+} */
 a{
   font-size: 24px;
   color: aqua;
