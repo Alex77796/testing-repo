@@ -1,0 +1,244 @@
+/* h1{
+  text-align: center;
+}
+
+
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+img{
+  width: 400px;
+}
+
+th,td{
+  padding: 0.20px;
+}  */
+/* input{
+  outline: none !important;
+}
+a{
+  font-size: 24px;
+  color: aqua;
+}
+a:hover{
+  color: green;
+  
+}
+a:visited{
+  color: red;
+  
+}
+
+.one{
+  width: 50px;
+  height: 50px;
+  background: #000;
+}
+.one:hover{
+  background:yellow;
+}
+
+input{
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+input:focus{
+  border: 3px solid red;
+}
+ div p:first-child{
+ border-top: 1px solid blueviolet;
+}
+
+div p:last-child{
+   background: blueviolet;
+ div p:nth-child(2n+1){
+   background: brown;
+ }
+ p{
+   position: relative;
+ }
+p::after{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: chartreuse;
+  position: absolute;
+  right:0px;
+  top: 0px;
+}
+
+p::before{
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  left:0px;
+  top: 0px;
+} */
+/* 2 */
+/* .main{
+  padding: 10px;
+  background: orange;
+}
+.main::after{
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.block{
+  width: 30px;
+  height: 30px;
+  background: palegreen;
+  border: 1px solid black;
+  float: left;
+}
+p::first-letter{
+  font-size: 24px;
+  font-weight: bold;
+  color: brown;
+}
+p::first-line{
+  background: cornflowerblue;
+} */
+
+
+h1{
+  text-align: center;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+img{
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
