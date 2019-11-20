@@ -1,150 +1,84 @@
-/* h1{
+*{
+  margin: 0;
+}
+
+html,body{
+  font-size: Tahoma,sans-serif;
+  color: #202020;
+  background: rgb(215, 247, 247);
+}
+p{
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+figcaption{
+  text-align: center;
+font-size: 14px;
+}
+a{
+  color: #202020;
+}
+.conteiner{
+  max-width: 1400px;
+  width: 90%;
+  margin: 0 auto;
+}
+.site-header{
   text-align: center;
 }
-
-
-/* table,th,td{
-  border: 1px solid black;
-  border-collapse: collapse;
+.site-header h1 {
+  border-bottom: 1px solid black;
+  padding: 30px;
 }
-
-img{
-  width: 400px;
-}
-
-th,td{
-  padding: 0.20px;
-}  */
-/* input{
-  outline: none !important;
-} */
-a{
-  font-size: 24px;
-  color: aqua;
-}
-a:hover{
-  color: green;
+.main{
   
+  padding: 30px 0;
 }
-a:visited{
-  color: red;
-  
-}
-
-.one{
-  width: 50px;
-  height: 50px;
-  background: #000;
-}
-.one:hover{
-  background:yellow;
-}
-
-input{
-  border: 1px solid green;
-  border-radius: 4px;
-}
-
-input:focus{
-  border: 3px solid red;
-}
- div p:first-child{
- border-top: 1px solid blueviolet;
-}
-
-div p:last-child{
-   background: blueviolet;
- div p:nth-child(2n+1){
-   background: brown;
- }
- p{
-   position: relative;
- }
-p::after{
+.main::after {
   content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: chartreuse;
-  position: absolute;
-  right:0px;
-  top: 0px;
-}
-
-p::before{
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  background: rgb(255, 0, 0);
-  position: absolute;
-  left:0px;
-  top: 0px;
-} */
-/* 2 */
-/* .main{
-  padding: 10px;
-  background: orange;
-}
-.main::after{
-  content: "";
-  display: block;
   width: 100%;
+  display: block;
   clear: both;
 }
-.block{
-  width: 30px;
-  height: 30px;
-  background: palegreen;
-  border: 1px solid black;
+.sidebar{
+  width: 18%;
   float: left;
+  margin-right: 2%;
+ 
 }
-p::first-letter{
-  font-size: 24px;
-  font-weight: bold;
-  color: brown;
+article{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+ 
 }
-p::first-line{
-  background: cornflowerblue;
-} */
-
-
-h1{
-  text-align: center;
+article h2{
+  margin-bottom: 20px;
 }
-table,th,td{
-  border: 1px solid black;
-  border-collapse: collapse;
+aside{
+  width: 30%;
+  float: left;
+  
 }
-img{
-  width: 400px;
+nav ul{
+  margin: 20px 0;
+  padding-left: 20px;
+}
+nav li{
+margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav li a{
+  text-decoration: none;
+}
+nav a:hover{
+  padding-left: 10px;
+}
+aside img{
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
 
 
 
