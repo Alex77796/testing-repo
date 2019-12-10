@@ -1,0 +1,105 @@
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+h2{
+  display: inline-block;
+  margin: 5px 10px;
+  color: aliceblue;
+}
+.el-1{
+  padding: 20px;
+  width: 100px;
+  background: rgb(89, 89, 94);
+  margin: 5px;
+}
+.el-2{
+  flex-grow: 2.5;
+  background: rgb(89, 89, 94);
+  margin: 5px;
+}
+.el-3{
+  flex-grow: 4;
+  background: rgb(89, 89, 94);
+  margin: 5px;
+}
+h3{
+  color: aliceblue;
+  float: right;
+  margin: 15px 15px;
+  font-size: 20px;
+}
+.container2{
+  display: flex;
+justify-content: space-between;
+}
+.s1{
+  flex-flow: column;
+}
+.c1{
+  background:rgb(89, 89, 94);
+  height: 370px;
+  width: 300px;
+  margin: 5px 5px;
+}
+p{
+  color: aliceblue;
+  padding:0px 15px 15px;
+}
+.z1{
+  background: rgb(89, 89, 94);
+  height: 150px;
+  width: 300px;
+  margin: 322px 0px 0px 0px;
+}
+.s2{
+  flex-flow: row-reverse wrap;
+justify-content: flex-start;
+margin: 0px;
+}
+.c2{
+  background: rgb(157, 158, 158);
+  width: 1012px;
+  height: 200px;
+  margin: 5px 5px 5px;
+}
+.w{
+  height: 200px;
+  width: 191px;
+  margin: 5px;
+  background:rgb(157, 158, 158);
+  display:inline-block;
+}
+.w.nul{
+  background: none;
+}
+.d{
+  width: 498px;
+  height: 200px;
+  background: rgb(157, 158, 158);
+  margin: 5px;
+  display: inline-block; 
+}
+.container3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.x{
+  height: 200px;
+  width: 430px;
+  background:rgb(89, 89, 94);
+  margin: 5px;
+}
+.hg{
+  background:rgb(89, 89, 94) ;
+  width: 440px;
+  height: 98px;
+  margin: 5px;
+ align-self: flex-end;
+}
+.er1{
+ display: flex;
+ flex-flow: row;
+}
