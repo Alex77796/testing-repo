@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+@import "grid";
+@import "navbar";
+
+// .default-input{
+//   border:1px solid green;
+//   padding: 5px;
+// }
+// .error-input{
+//   border-color: red;
+// }
+.js-calculator{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(173, 227, 231);
+  border: 1px solid black;
+  padding: 20px;
+}
+.js-calculator .operation-block button{
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+}
+.js-calculator .inputs-block .input-block label{
+  display: block;
+}
+.js-calculator .inputs-block .input-block{
+  display: inline-block;
+  padding: 10px;
+}
+

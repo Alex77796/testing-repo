@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="index.css">
-  <title>Document</title>
-</head>
-<body>
- <div class="container">
-   <img class="main-slider" src="https://d12dkjq56sjcos.cloudfront.net/pub/media/catalog/product/cache/cc97dcefdad38e30e4c65a42f2529e4f/r/o/rome-night-tour-big-bus-tours.jpg" alt="">
-   <div class="header">
-     
-     <div class="left-buttons">
-     <input type="button"value="home">
-     <input type="button"value="abaut">
-     <input type="button"value="price">
-    </div>
-    <div class="right-buttons">
-     <input type="button"value="login">
-     <input type="button"value="signin">
-    </div>
-   </div>
-   <div class="main-contant">
-      <div class="article-container">
-        <img class="article-img" src="https://d12dkjq56sjcos.cloudfront.net/pub/media/catalog/product/cache/cc97dcefdad38e30e4c65a42f2529e4f/r/o/rome-night-tour-big-bus-tours.jpg" alt="">
-        <div class="article">
-        <h3>Tours ipsum</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi blanditiis qui architecto quae beatae porro sint aliquam alias officiis quas, corporis aspernatur quidem sunt temporibus quos tenetur illo impedit dolorem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus tempora sed doloremque quidem soluta facere culpa quae, laboriosam aliquam nobis cupiditate quisquam molestiae ex laudantium magnam fugiat harum quaerat aut.<p>
-       </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>hello</title>
+  </head>
+  <body>
+    <div class="js-calculator">
+      <div class="operation-block">
+        <button class="operation-button" id="buttonPlus">+</button>
+        <button class="operation-button" id="buttonMinus">-</button>
+        <button class="operation-button" id="buttonMultiply">*</button>
+        <button class="operation-button" id="buttonDevide">/</button>
+      </div>
+      <div class="separator"><hr /></div>
+      <div class="inputs-block">
+        <div class="input-block">
+          <label for="">Number1</label>
+          <input type="number" value="100" id="number1">
+        </div>
+        <div class="input-block">
+          <label for="">Number2</label>
+          <input type="number" value="5" id="number2">
+        </div>
       </div>
     </div>
- </div>
-</body>
+
+    <!-- <div>
+  <input value="Alex" id="First-name">
+</div>
+<div>
+  <input value="Palas" id="last-name">
+</div>
+<div>
+  <input value="Ternopil city" id="address">
+</div>
+<div>
+  <button id="send-button">Send</button>
+</div> -->
+    <script src="main.js"></script>
+  </body>
 </html>
