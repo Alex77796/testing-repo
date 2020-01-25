@@ -37,13 +37,18 @@ function showArticles() {
     let titleText = document.createTextNode(obj.title);
     objTitle.appendChild(titleText);
 
+    let objImage = document.createElement("h3");
+    let imageText = document.createTextNode(obj.image);
+    objImage.appendChild(imageText);
+
     let objArticle = document.createElement("article");
-    let articleText = document.createElement(obj.article);
+    let articleText = document.createTextNode(obj.article);
     objArticle.appendChild(articleText);
 
     let objContainer = document.createElement("div");
     objContainer.appendChild(objTitle);
     objContainer.appendChild(objArticle);
+    objContainer.appendChild(objImage);
 
     document.getElementById("articleContainer").appendChild(objContainer);
   }
