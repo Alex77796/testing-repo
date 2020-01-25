@@ -1,48 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>Strings and Date</title>
+</head>
+<body>
+  <div class="wrap">
+    <label for="title">Article title</label>
+    <input class="sk" id="title">
+    <label for="imgsrc">Article img url</label>
+    <input class="sk" id="imgsrc">
+    <label for="text">Article</label>
+    <textarea class="sk" id="text"></textarea>
+    <br>
+    <p id="info"></p>
+    <button class="mainButton" onclick="saveArticle()"> Save Article</button>
+</div>
+<div>
+    <button class="mainButton" onclick="showArticles()">Show Articles</button>
 
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>hello</title>
-  </head>
-  <body>
-    <div class="js-calculator">
-      <div class="operation-block">
-        <button class="operation-button" id="buttonPlus">+</button>
-        <button class="operation-button" id="buttonMinus">-</button>
-        <button class="operation-button" id="buttonMultiply">*</button>
-        <button class="operation-button" id="buttonDevide">/</button>
-      </div>
-      <div class="separator"><hr /></div>
-      <div class="inputs-block">
-        <div class="input-block">
-          <label for="">Number1</label>
-          <input type="number" value="100" id="number1">
-        </div>
-        <div class="input-block">
-          <label for="">Number2</label>
-          <input type="number" value="5" id="number2">
-        </div>
-      </div>
+    <div id="articleContainer">
     </div>
+</div>
 
-    <!-- <div>
-  <input value="Alex" id="First-name">
-</div>
-<div>
-  <input value="Palas" id="last-name">
-</div>
-<div>
-  <input value="Ternopil city" id="address">
-</div>
-<div>
-  <button id="send-button">Send</button>
-</div> -->
+
     <script src="main.js"></script>
-  </body>
+</body>
 </html>

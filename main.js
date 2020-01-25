@@ -1,33 +1,50 @@
-var operationButtons = document.getElementsByClassName("operation-button");
+let allArticles = [];
 
-let input1 = document.getElementById("number1");
-let input2 = document.getElementById("number2");
-
-function maceOperation(operationCode) {
-  var number1 = Number(input1.value);
-  var number2 = Number(input2.value);
-  if (operationCode === "+") {
-    var sum = number1 + number2;
-  } else if (operationCode === "-") {
-    var sum = number1 - number2;
-  } else if (operationCode === "*") {
-    var sum = number1 * number2;
+function saveArticle() {
+  let articleObj = {};
+  let title = document.getElementById("title").value;
+  let imgUrl = document.getElementById("imgsrc").value;
+  let article = document.getElementById("text").value;
+  if (title === "" || imgUrl === "" || article === "") {
+    alert("All inputs should not be empty");
   } else {
-    var sum = number1 / number2;
+    articleObj.title = title;
+    articleObj.image = imgUrl;
+    articleObj.article = article;
+    articleObj.sentences = article.split(".");
+    articleObj.sentencesNum = articleObj.sentences.length;
+    allArticles.push(articleObj);
+    let info = document.getElementById("info");
+    info.innerText = "The article has bee saved";
+    emptyFields();
+    console.dir(allArticles);
   }
-  window.alert(sum);
+
+  // this logic can be chandes later
 }
-
-function onOperationButtonClick(eventObject) {
-  var clickedElement = eventObject.currentTarget;
-  var operation = clickedElement.innerHTML;
-  maceOperation(operation);
+function emptyFields(title, url, text, info) {
+  document.getElementById("title").value = "";
+  document.getElementById("imgsrc").value = "";
+  document.getElementById("text").value = "";
+  setTimeout(function() {
+    document.getElementById("info").innerText = "";
+  }, 4000);
 }
+function showArticles() {
+  for (var i = 0; i < allArticles.length; i++) {
+    let obj = allArticles[i];
+    let objTitle = document.createElement("h3");
+    let titleText = document.createTextNode(obj.title);
+    objTitle.appendChild(titleText);
 
-var operationButtons = [buttonPlus, buttonMinus, buttonMultiply, buttonDevide];
+    let objArticle = document.createElement("article");
+    let articleText = document.createElement(obj.article);
+    objArticle.appendChild(articleText);
 
+    let objContainer = document.createElement("div");
+    objContainer.appendChild(objTitle);
+    objContainer.appendChild(objArticle);
 
-// for (i = 0; i < operationButtons.length; i++){
-//   var button = operationButtons[i];
-//   button.addEventListener("click", onOperationButtonClick);
-// }
+    document.getElementById("articleContainer").appendChild(objContainer);
+  }
+}
