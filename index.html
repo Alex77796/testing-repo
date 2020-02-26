@@ -1,32 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css" />
-  <title>Strings and Date</title>
-</head>
-<body>
-  <div class="wrap">
-    <label for="title">Article title</label>
-    <input class="sk" id="title">
-    <label for="imgsrc">Article img url</label>
-    <input class="sk" id="imgsrc">
-    <label for="text">Article</label>
-    <textarea class="sk" id="text"></textarea>
-    <br>
-    <p id="info"></p>
-    <button class="mainButton" onclick="saveArticle()"> Save Article</button>
-</div>
-<div>
-    <button class="mainButton" onclick="showArticles()">Show Articles</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Strings and Date</title>
+  </head>
+ 
+  <!-- <label for="fullname">Введіть Повне Імя<input placeholder="Full Name" id="fullname"></label>
+<label for="phone">Введіть номер телефону<input type="text" placeholder="Phone number" id="phone"></label>
 
-    <div id="articleContainer">
+  <label for="yes">Так<input type="checkbox" id="yes" onclick="checkedYes(this)"></label>
+
+  <label for="no">Ні<input type="checkbox" id="no" onclick="checkedNo(this)"></label>
+
+  <label for="" id="carModel"></label>
+  <button>Зберегти</button> -->
+
+  <!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script> -->
+<div id="formContainer">
+  <input id="firstName" type="text" placeholder="firstName">
+  <input id="lastName" type="text" placeholder="lastName">
+  <input id="createUser" type="button" value="Create User"class="btn" onclick="createUser()">
+  <div id="userInfo"></div>
+</div>
+<header>
+  <div class="header__logo"><p>Психологічні Тести</p></div>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#">Головна</a>
+      <a href="#">Тести</a>
+      <a href="#">Відео</a>
+      <a href="#">Kонтакти</a>
+      <a href="#">Реєстраія</a>
+      <a href="#">Вхід</a>
+      <a href="#" id="menu" class="icon">&#9776;</a>
     </div>
-</div>
-
-
+  </nav>
+   </header>
+   <div class="vstup">
+     <p class="Pvstup"> <span>  6 </span> психологічних  онлайн-тестів,<br> що справді допоможуть пізнати себе</p>
+   </div>
+   <div>
+    <button>Вибрати тест</button>
+   </div>
+  <!-- <div class="sidebar">
+    <h2>Тести</h2>
+    <ul>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+      <li>Тест 1</li>
+    </ul>
+  </div> -->
+  <!-- <div class="img">
+    <img src="https://img5.goodfon.ru/wallpaper/nbig/0/68/osen-derevo-chiorno-beloe-foto-reka.jpg" alt="">
+  </div> -->
+  <div class="container">
+    <div class="test">
+  <p class="testP">Kакое у тебя мнение о себе?</p>
+    </div>
+    <div class="test">
+  <p class="testP">Насколько легко тебе живется?</p>
+    </div>
+    <div class="test">
+  <p class="testP">Возраст внутреннего "Я"</p>
+    </div>
+    <div class="test">
+  <p class="testP">Насколько ты честный человек?</p>
+    </div>
+    <div class="test">
+  <p class="testP">Kакие комплексы у Вас?</p>
+    </div>
+    <div class="test">
+  <p class="testP">Ваше отношение к своему здоровью</p>
+    </div>
+  </div>
+  <footer>
+    <div class="social">
+    <img class="soc" src="icon/twiter.png" alt="">
+    <img class="soc" src="icon/ff.png" alt="">
+    <img class="soc" src="icon/youtube.png" alt="">
+    <img class="soc" src="icon/instagram.png" alt="">
+    <img class="soc" src="icon/telegram.png" alt="">
+  </div>
+  </footer>
+  
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
