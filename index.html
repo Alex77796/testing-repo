@@ -7,95 +7,57 @@
     <link rel="stylesheet" href="style.css" />
     <title>Strings and Date</title>
   </head>
- 
-  <!-- <label for="fullname">Введіть Повне Імя<input placeholder="Full Name" id="fullname"></label>
-<label for="phone">Введіть номер телефону<input type="text" placeholder="Phone number" id="phone"></label>
 
-  <label for="yes">Так<input type="checkbox" id="yes" onclick="checkedYes(this)"></label>
+  <div id="signWrap" class="signWrapper">
+    <div class="rowContainer">
+      <div id="aquarius" onclick="getHoroscope(this)">
+        <img src="goroskop/aquarius.png" alt="">
+      </div>
+      <div id="aries" onclick="getHoroscope(this)">
+        <img src="goroskop/aries.png" alt="">
+      </div>
+      <div id="cancer" onclick="getHoroscope(this)">
+        <img src="goroskop/cancer.png" alt="">
+      </div>
+      <div id="capricorn" onclick="getHoroscope(this)">
+        <img src="goroskop/capricorn.png" alt="">
+      </div>
+    </div>
+    <div class="rowContainer">
+      <div id="gemini" onclick="getHoroscope(this)">
+        <img src="goroskop/gemini.png" alt="">
+      </div>
+      <div id="leo" onclick="getHoroscope(this)">
+        <img src="goroskop/leo.png" alt="">
+      </div>
+      <div id="libra" onclick="getHoroscope(this)">
+        <img src="goroskop/libra.png" alt="">
+      </div>
+      <div id="pisces" onclick="getHoroscope(this)">
+        <img src="goroskop/pisces.png" alt="">
+      </div>
+    </div>
+    <div class="rowContainer">
+      <div id="sagitaurius" onclick="getHoroscope(this)">
+        <img src="goroskop/sagitaurius.png" alt="">
+      </div>
+      <div id="scorpio" onclick="getHoroscope(this)">
+        <img src="goroskop/scorpio.png" alt="">
+      </div>
+      <div id="taurus" onclick="getHoroscope(this)">
+        <img src="goroskop/taurus.png" alt="">
+      </div>
+      <div id="virgo" onclick="getHoroscope(this)">
+        <img src="goroskop/virgo.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div id="signDescription">
+    <p> <b>Sunsign Name:</b> <span id="sName"></span></p>
+    <p> <b>Horoscope:</b><span id="descript"></span></p>
 
-  <label for="no">Ні<input type="checkbox" id="no" onclick="checkedNo(this)"></label>
-
-  <label for="" id="carModel"></label>
-  <button>Зберегти</button> -->
-
-  <!-- <script
-  src="https://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous"></script> -->
-<div id="formContainer">
-  <input id="firstName" type="text" placeholder="firstName">
-  <input id="lastName" type="text" placeholder="lastName">
-  <input id="createUser" type="button" value="Create User"class="btn" onclick="createUser()">
-  <div id="userInfo"></div>
 </div>
-<header>
-  <div class="header__logo"><p>Психологічні Тести</p></div>
-  <nav>
-    <div class="topnav" id="myTopnav">
-      <a href="#">Головна</a>
-      <a href="#">Тести</a>
-      <a href="#">Відео</a>
-      <a href="#">Kонтакти</a>
-      <a href="#">Реєстраія</a>
-      <a href="#">Вхід</a>
-      <a href="#" id="menu" class="icon">&#9776;</a>
-    </div>
-  </nav>
-   </header>
-   <div class="vstup">
-     <p class="Pvstup"> <span>  6 </span> психологічних  онлайн-тестів,<br> що справді допоможуть пізнати себе</p>
-   </div>
-   <div>
-    <button>Вибрати тест</button>
-   </div>
-  <!-- <div class="sidebar">
-    <h2>Тести</h2>
-    <ul>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-      <li>Тест 1</li>
-    </ul>
-  </div> -->
-  <!-- <div class="img">
-    <img src="https://img5.goodfon.ru/wallpaper/nbig/0/68/osen-derevo-chiorno-beloe-foto-reka.jpg" alt="">
-  </div> -->
-  <div class="container">
-    <div class="test">
-  <p class="testP">Kакое у тебя мнение о себе?</p>
-    </div>
-    <div class="test">
-  <p class="testP">Насколько легко тебе живется?</p>
-    </div>
-    <div class="test">
-  <p class="testP">Возраст внутреннего "Я"</p>
-    </div>
-    <div class="test">
-  <p class="testP">Насколько ты честный человек?</p>
-    </div>
-    <div class="test">
-  <p class="testP">Kакие комплексы у Вас?</p>
-    </div>
-    <div class="test">
-  <p class="testP">Ваше отношение к своему здоровью</p>
-    </div>
-  </div>
-  <footer>
-    <div class="social">
-    <img class="soc" src="icon/twiter.png" alt="">
-    <img class="soc" src="icon/ff.png" alt="">
-    <img class="soc" src="icon/youtube.png" alt="">
-    <img class="soc" src="icon/instagram.png" alt="">
-    <img class="soc" src="icon/telegram.png" alt="">
-  </div>
-  </footer>
-  
+
     <script src="main.js"></script>
   </body>
 </html>
