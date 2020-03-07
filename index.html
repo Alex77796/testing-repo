@@ -7,47 +7,96 @@
     <link rel="stylesheet" href="style.css" />
     <title>Strings and Date</title>
   </head>
+  <body>
+    <!-- <div class="wrap">
+<label for="fullname">Full name:</label>
+<input id="fullname" type="text">
 
-  <div id="signWrap" class="signWrapper">
+<label for="email">Email:</label>
+  <input id="email" type="email">
+  
+  <label for="password">Password:</label>
+    <input id="password">
+    
+    <label for="confirmpass">Confirmpass</label>
+      <input id="confirmpass">
+      
+<button type="submit" onclick="register()">Reg</button>
+<button type="submit" onclick="go()">Go</button>
+</div>
+<div id="er"></div>
+<div id="error">Error</div>
+</div> -->
+
+    <form id="register-form">
+      <input id="name" type="text" placeholder="Name" value="" />
+      <input id="email" type="text" placeholder="Email" value="" />
+      <input id="pw" type="password" placeholder="Password" value="" />
+      <input
+        id="confirmpass"
+        type="password"
+        placeholder="confirmpass"
+        value=""
+      />
+      <input
+        id="rgstr_btn"
+        type="submit"
+        value="get Account"
+        onclick="store()"
+      />
+    </form>
+    <!-- action="indexx.html" -->
+    <form id="login-form" >
+      <input id="userName" type="text" placeholder="Enter Username" value="" />
+      <input
+        id="userPw"
+        type="password"
+        placeholder="Enter Password"
+        value=""
+      />
+     <span id="login_btn" value="Login" onclick="check()">Login</span>
+    </form>
+
+    <!-- <div id="signWrap" class="signWrapper">
     <div class="rowContainer">
-      <div id="aquarius" onclick="getHoroscope(this)">
+      <div id="aquarius" onclick="clickedSign(this.id)">
         <img src="goroskop/aquarius.png" alt="">
       </div>
-      <div id="aries" onclick="getHoroscope(this)">
+      <div id="aries" onclick="clickedSign(this.id)">
         <img src="goroskop/aries.png" alt="">
       </div>
-      <div id="cancer" onclick="getHoroscope(this)">
+      <div id="cancer" onclick="clickedSign(this.id)">
         <img src="goroskop/cancer.png" alt="">
       </div>
-      <div id="capricorn" onclick="getHoroscope(this)">
+      <div id="capricorn" onclick="clickedSign(this.id)">
         <img src="goroskop/capricorn.png" alt="">
       </div>
     </div>
     <div class="rowContainer">
-      <div id="gemini" onclick="getHoroscope(this)">
+      <div id="gemini" onclick="clickedSign(this.id)">
         <img src="goroskop/gemini.png" alt="">
       </div>
-      <div id="leo" onclick="getHoroscope(this)">
+      <div id="leo" onclick="clickedSign(this.id)">
         <img src="goroskop/leo.png" alt="">
       </div>
-      <div id="libra" onclick="getHoroscope(this)">
+      <div id="libra" onclick="clickedSign(this.id)">
         <img src="goroskop/libra.png" alt="">
       </div>
-      <div id="pisces" onclick="getHoroscope(this)">
+      <div id="pisces" onclick="clickedSign(this.id)">
         <img src="goroskop/pisces.png" alt="">
       </div>
     </div>
     <div class="rowContainer">
-      <div id="sagitaurius" onclick="getHoroscope(this)">
+      <div id="sagitaurius" onclick="clickedSign(this.id)">
         <img src="goroskop/sagitaurius.png" alt="">
       </div>
-      <div id="scorpio" onclick="getHoroscope(this)">
+      <div id="scorpio" onclick="clickedSign(this.id)">
         <img src="goroskop/scorpio.png" alt="">
       </div>
-      <div id="taurus" onclick="getHoroscope(this)">
+      <div id="taurus" onclick="clickedSign(this.id)">
         <img src="goroskop/taurus.png" alt="">
       </div>
-      <div id="virgo" onclick="getHoroscope(this)">
+      <div id="virgo" onclick="clickedSign(this.id)">
         <img src="goroskop/virgo.png" alt="">
       </div>
     </div>
@@ -56,7 +105,20 @@
     <p> <b>Sunsign Name:</b> <span id="sName"></span></p>
     <p> <b>Horoscoope:</b><span id="descript"></span></p>
 
-</div>
+</div> -->
+    <!-- <label for="fullname">
+<input id="fullname" type="text">
+</label>
+<label for="email">
+  <input id="email" type="email">
+  </label>
+  <label for="password">
+    <input id="password">
+    </label>
+    <label for="confirmpass">
+      <input id="confirmpass">
+      </label>
+<button type="submit" onclick="register()">Reg</button> -->
 
     <script src="main.js"></script>
   </body>

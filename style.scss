@@ -3,10 +3,33 @@
 @import "grid";
 @import "navbar";
 
-.rowContainer{
-  display: flex;
-  justify-content: center;
+body{
+  background-color: rgb(163, 219, 163);
 }
-.rowContainer >div:hover{
+// .wrap{
+//   display: inline-grid;
+//   margin-left: 500px;
+// }
+// label{
+//   display: block;
+// }
+// #error{
+//   text-align: center;
+//   font-size: 40px;
+//   color: red;
+//   display: none;
+// }
+// button{
+//   margin: 10px;
+// }
+input{
+  display: block;
+}
+span{
   cursor: pointer;
+  margin-left: 50px;
+  padding-bottom: 5px;
+  background-color: rgb(67, 59, 187);
+  border: 0.5px solid black;
+  border-radius: 5px;
 }
